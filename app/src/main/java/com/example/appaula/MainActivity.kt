@@ -12,10 +12,24 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val edtNome:EditText = findViewById(R.id.edtNome)
+        val edtEndereco:EditText = findViewById(R.id.edtEndereco)
+        val edtBairro:EditText = findViewById(R.id.edtBairro)
+        val edtCep:EditText = findViewById(R.id.edtCep)
+        val edtCidade:EditText = findViewById(R.id.edtCidade)
+        val edtEstado:EditText = findViewById(R.id.edtEstado)
         val btnCadastrar:Button = findViewById(R.id.btnCadastrar)
         btnCadastrar.setOnClickListener{
-            val toast = Toast.makeText( this, edtNome.toString(), Toast.LENGTH_SHORT)
+
+
+            val toast = Toast.makeText(this, "cadastro finalizado", Toast.LENGTH_SHORT)
             toast.show()
+
+            edtNome.text.clear()
+            edtEndereco.text.clear()
+            edtBairro.text.clear()
+            edtCep.text.clear()
+            edtCidade.text.clear()
+            edtEstado.text.clear()
         }
     }
 }

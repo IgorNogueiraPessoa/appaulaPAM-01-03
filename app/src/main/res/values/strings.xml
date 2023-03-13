@@ -1,6 +1,17 @@
 <resources>
     <string name="app_name">AppAula</string>
-    <string name="txtNome">Digite seu nome</string>
-    <string name="txtNomeMsg">Digite o seu nome</string>
+    <string name="txtNome">Nome:</string>
+    <string name="txtNomeMsg">Digite seu nome</string>
     <string name="btnCadastrar">Cadastrar</string>
+    <string name="txtEndereco">Endereço:</string>
+    <string name="txtEnderecoMsg">Digite seu endereço</string>
+    <string name="txtBairro">Bairro:</string>
+    <string name="txtBairroMsg">Digite o seu bairro:</string>
+    <string name="txtCep">CEP:</string>
+    <string name="txtCepMsg">Digite o seu CEP</string>
+    <string name="txtCidade">Cidade:</string>
+    <string name="txtCidadeMsg">Digite a sua cidade</string>
+    <string name="txtEstado">Estado:</string>
+    <string name="txtEstadoMsg">Digite seu estado</string>
+
 </resources>

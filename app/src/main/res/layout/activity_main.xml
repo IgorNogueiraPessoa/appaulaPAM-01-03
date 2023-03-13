@@ -5,29 +5,120 @@
     android:orientation="vertical"
     android:layout_height="wrap_content"
     android:layout_width="match_parent">
-
+<!-- text view e edit view nome -->
     <TextView
         android:id="@+id/txtNome"
         android:text="@string/txtNome"
-        android:textSize="30sp"
+        android:textSize="25dp"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
-        android:layout_height="match_parent"/>
+        android:layout_height="wrap_content"/>
 
     <EditText
         android:id="@+id/edtNome"
-        android:textSize="30sp"
-        android:inputType="text"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:autofillHints="name"
         android:hint="@string/txtNomeMsg"
+        android:inputType="text"
+        android:textSize="25sp" />
+    <!-- text view e edit view endereço -->
+    <TextView
+        android:id="@+id/txtEndereco"
+        android:text="@string/txtEndereco"
+        android:textSize="25dp"
         android:layout_gravity="center_horizontal"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content" />
-    
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtEndereco"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints="name"
+        android:hint="@string/txtEnderecoMsg"
+        android:inputType="text"
+        android:textSize="20sp" />
+    <!-- text view e edit view bairro -->
+    <TextView
+        android:id="@+id/txtBairro"
+        android:text="@string/txtBairro"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtBairro"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints="name"
+        android:hint="@string/txtBairroMsg"
+        android:inputType="text"
+        android:textSize="20sp" />
+    <!-- text view e edit view cep -->
+    <TextView
+        android:id="@+id/txtCep"
+        android:text="@string/txtCep"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtCep"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints="name"
+        android:hint="@string/txtCepMsg"
+        android:inputType="text"
+        android:textSize="25sp" />
+
+    <!-- text view e edit view cidade -->
+    <TextView
+        android:id="@+id/txtCidade"
+        android:text="@string/txtCidade"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtCidade"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints="name"
+        android:hint="@string/txtCidadeMsg"
+        android:inputType="text"
+        android:textSize="20sp" />
+    <!-- text view e edit view estado -->
+    <TextView
+        android:id="@+id/txtEstado"
+        android:text="@string/txtEstado"
+        android:textSize="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/edtEstado"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:autofillHints="name"
+        android:hint="@string/txtEstadoMsg"
+        android:inputType="text"
+        android:textSize="25sp" />
+    <!--botão-->
     <Button
         android:id="@+id/btnCadastrar"
         android:text="@string/btnCadastrar"
-        android:textSize="30sp"
+        android:textSize="30dp"
         android:layout_gravity="center_horizontal"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"/>
